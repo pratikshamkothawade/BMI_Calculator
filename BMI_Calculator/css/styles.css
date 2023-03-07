@@ -1,0 +1,32 @@
+body{
+    background-image: url('/images/bmi_bg_copy.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+
+    text-align: center;
+    font-size: 90px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  .but{
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 35px;
+    font-weight:bold;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(165, 32, 32);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .but:hover{
+    background-color:  rgb(246, 246, 246);
+    color: rgb(140, 25, 25);
+    border: solid rgb(136, 0, 0) ;
+  }
